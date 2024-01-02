@@ -1,0 +1,10 @@
+{
+  "fileData": {
+    "evaluatorDir": "",
+    "evaluatorPath": "",
+    "standardFileDir": "",
+    "standardFilePath": "standard_answer.jsonl",
+    "userFileDir": "",
+    "userFilePath": "submit_result.jsonl"
+  }
+}
