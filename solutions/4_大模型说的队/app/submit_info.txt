@@ -1,0 +1,4 @@
+队伍id：1012841
+镜像仓库：registry.cn-shanghai.aliyuncs.com/bj1120/20231202:final
+username=aliyun2493072565
+密码：bojin231222
