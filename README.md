@@ -19,8 +19,9 @@
 
 - [项目介绍](README.md#项目简介)
 - [项目框架](README.md#项目说明)
-    - [1. 数据准备流程](README.md#数据说明)
-    - [2. 模型准备流程](README.md#模型说明)
+    - [1. 数据说明](README.md#数据说明)
+    - [2. 模型说明](README.md#模型说明)
+    - [2. 评测说明](README.md#评测说明)
 - [比赛项目](README.md#比赛项目)
   - [1. 饺子研究院](README.md#馒头科技)
   - [2. 果树灌溉技术组](README.md#南哪都队)
@@ -40,7 +41,7 @@
 
 🚀 随着人工智能和数字化技术在金融领域的日益广泛应用，本项目希望借助社区的力量，共同探索大预言模型在金融科技中的应用潜力。针对金融场景，此次项目和比赛主要聚焦LLM问答系统，希望针对金融场景的结构化数据、文本数据等，实现高质量的检索和问答。
 
-📘 基于此次比赛和项目，分别开源了[通义千问金融大模型](https://modelscope.cn/organization/TongyiFinance)系列模型和[博金大模型挑战赛金融数据集](https://www.modelscope.cn/datasets/BJQW14B/bs_challenge_financial_14b_dataset/summary)。
+📘 基于此次比赛和项目，分别开源了[通义千问金融大模型](https://modelscope.cn/organization/TongyiFinance)系列模型、[博金大模型挑战赛金融数据集](https://www.modelscope.cn/datasets/BJQW14B/bs_challenge_financial_14b_dataset/summary)和[比赛评测程序](./eval)
 
 ---
 ## 🛠 项目说明
@@ -74,6 +75,14 @@
 - 训练上下文扩展到16K，借助NTK和LogN等技术，推理长度可以扩展到64K；
 
 支持modelscope和huggingface官方训练框架，更多技术细节和fine tune脚本，请参考[Qwen主页](https://github.com/QwenLM/Qwen)，以及[Qwen Technique Report](https://arxiv.org/abs/2309.16609)。
+
+
+### 3. 评测说明
+
+此次项目，同时开源了“2023博金大模型挑战赛”的评测代码，具体详见[eval目录](./eval)，评测主要从两个角度出发：
+
+- 参考答案中的关键信息，如关键词、数据查询结果、文本查询结果，是否包含在选手提供的最终回答中，主要考察recall指标；
+- 选手答案的语义信息与参考答案是否接近，综合考察F1 score和基于向量的文本相似度 (具体采用开源模型 [shibing624/text2vec-base-chinese](https://huggingface.co/shibing624/text2vec-base-chinese))
 
 
 ---
@@ -116,17 +125,17 @@
 
 ### 4. 大模型说的队
 
-[[PPT]](./solutions/大模型说的队/slides.pdf) [[代码]](./solutions/大模型说的队/app)
+[[PPT]](./solutions/4_大模型说的队/slides.pdf) [[代码]](./solutions/4_大模型说的队/app)
 
 ![大模型说的队](./imgs/framework_4.jpg)
 
 
-### 5. 猫街四果汤 
+### 5. 梦想还是要有的
 
 [[PPT]](./slides/龙盈战队.pdf) [[视频]](https://www.bilibili.com/video/BV1Ju4y167ew) [[代码]](./code/龙盈战队)
 
 ![longying](./img/longying.jpg)
-### 6. 梦想还是要有的 
+### 6. 猫街四果汤 
 
 [[PPT]](./slides/结婚买房代代韭菜.pdf) [[代码]](./code/结婚买房代代韭菜)
 
