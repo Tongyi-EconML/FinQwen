@@ -11,7 +11,7 @@
 
 📃 **FinQwen**:  FinQwen: 致力于构建一个开放、稳定、高质量的金融大模型项目，基于大模型搭建金融场景智能问答系统，利用开源开放来促进「AI+金融」。
 
-【🔥 2024/01/02 Update】开源[通义千问金融大模型](https://modelscope.cn/organization/TongyiFinance)，上下文窗口16K，提供全精度和int4量化版本；
+【🔥 2023/11/24 Update】开源[通义千问金融大模型](https://modelscope.cn/organization/TongyiFinance)，上下文窗口16K，提供全精度和int4量化版本；
 
 ---
 
@@ -28,6 +28,7 @@
   - [3. hxjj](README.md#hxjj)
   - [4. 大模型说的队](README.md#大模型说的队)
   - [5. 梦想还是要有的](README.md#梦想还是要有的)
+  - [6. 猫街四果汤](README.md#猫街四果汤)
 - [优秀平台&框架](README.md#优秀平台&框架)
 - [贡献者](README.md#贡献者)
 - [免责声明](README.md#免责声明)
@@ -136,6 +137,12 @@
 
 ![大模型说的队](./imgs/framework_5.jpg)
 
+### 6. 猫街四果汤
+
+[[代码]](./solutions/6_猫街四果汤/app) 
+
+![猫街四果汤](./imgs/framework_6.jpg)
+
 
 
 ------
@@ -158,6 +165,7 @@
 - 🌟 hxjj
 - 🌟 大模型说的队
 - 🌟 梦想还是要有的
+- 🌟 猫街四果汤
 - 🌟 ... 更多贡献者
 
 FinQwen 开源项目出于完全公益目的，欢迎所有开发者申请加入，以及提交更多优秀代码方案。
