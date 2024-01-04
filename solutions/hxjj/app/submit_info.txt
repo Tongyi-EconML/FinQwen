@@ -1,0 +1,7 @@
+队伍id
+团队ID: 988321
+
+docker提交信息
+镜像地址: registry.cn-shanghai.aliyuncs.com/yuzhw/qwert:121203
+用户名：yyzhzhww@163.com
+密码: qwert,./
