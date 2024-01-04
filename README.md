@@ -22,13 +22,12 @@
     - [1. 数据说明](README.md#数据说明)
     - [2. 模型说明](README.md#模型说明)
     - [2. 评测说明](README.md#评测说明)
-- [比赛项目](README.md#比赛项目)
-  - [1. 饺子研究院](README.md#馒头科技)
-  - [2. 果树灌溉技术组](README.md#南哪都队)
-  - [3. hxjj](README.md#Chatglm反卷总局)
-  - [4. 大模型说的队](README.md#nsddd)
-  - [5. 梦想还是要有的](README.md#龙盈战队)
-  - [6. 猫街四果汤](README.md#结婚买房代代韭菜)
+- [比赛项目](README.md#优秀开源方案)
+  - [1. 饺子研究院](README.md#饺子研究院)
+  - [2. 果树灌溉技术组](README.md#果树灌溉技术组)
+  - [3. hxjj](README.md#hxjj)
+  - [4. 大模型说的队](README.md#大模型说的队)
+  - [5. 梦想还是要有的](README.md#梦想还是要有的)
 - [优秀平台&框架](README.md#优秀平台&框架)
 - [贡献者](README.md#贡献者)
 - [免责声明](README.md#免责声明)
@@ -110,26 +109,31 @@
 ### 1. 饺子研究院 
 
 [[PPT]](./solutions/1_饺子研究院/slides.pdf) 
+
 ![饺子研究院](./imgs/framework_1.jpg)
 ### 2. 果树灌溉技术组
 
 [[PPT]](./solutions/2_果树灌溉技术组/slides.pdf)
+
 ![果树灌溉技术组](./imgs/framework_2.jpg)
 
 ### 3. hxjj
 
 [[PPT]](./solutions/3_hxjj/slides.pdf) [[代码]](./solutions/3_hxjj/app)
+
 ![大模型说的队](./imgs/framework_3.jpg)
 
 ### 4. 大模型说的队
 
 [[PPT]](./solutions/4_大模型说的队/slides.pdf) [[代码]](./solutions/4_大模型说的队/app)
+
 ![大模型说的队](./imgs/framework_4.jpg)
 
 
 ### 5. 梦想还是要有的
 
 [[PPT]](./solutions/5_梦想还是要有的/slides.pdf) 
+
 ![大模型说的队](./imgs/framework_5.jpg)
 
 
