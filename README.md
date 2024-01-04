@@ -109,38 +109,28 @@
 
 ### 1. 饺子研究院 
 
-[[PPT]](./slides/馒头科技.pdf) [[视频]](https://www.bilibili.com/video/BV18h4y187UU/) [[代码]](./code/馒头科技)
-![mantou](./img/mantou.jpg)
+[[PPT]](./solutions/1_饺子研究院/slides.pdf) 
+![饺子研究院](./imgs/framework_1.jpg)
 ### 2. 果树灌溉技术组
 
-[[PPT]](./slides/南哪都队.pdf) [[视频]](https://www.bilibili.com/video/BV1Gm4y1V7LD/) [[代码]](./code/南哪都队)
-
-![nanna](./img/nanna.jpg)
+[[PPT]](./solutions/2_果树灌溉技术组/slides.pdf)
+![果树灌溉技术组](./imgs/framework_2.jpg)
 
 ### 3. hxjj
 
-[[PPT]](./slides/ChatGLM反卷总局.pdf) [[视频]](https://www.bilibili.com/video/BV1hu4y147EW/) [[代码]](./code/Chatglm反卷总局)
-
-![chatglmfanjuan](./img/chatglmfanjuan.jpg)
+[[PPT]](./solutions/3_hxjj/slides.pdf) [[代码]](./solutions/3_hxjj/app)
+![大模型说的队](./imgs/framework_3.jpg)
 
 ### 4. 大模型说的队
 
 [[PPT]](./solutions/4_大模型说的队/slides.pdf) [[代码]](./solutions/4_大模型说的队/app)
-
 ![大模型说的队](./imgs/framework_4.jpg)
 
 
 ### 5. 梦想还是要有的
 
-[[PPT]](./slides/龙盈战队.pdf) [[视频]](https://www.bilibili.com/video/BV1Ju4y167ew) [[代码]](./code/龙盈战队)
-
-![longying](./img/longying.jpg)
-### 6. 猫街四果汤 
-
-[[PPT]](./slides/结婚买房代代韭菜.pdf) [[代码]](./code/结婚买房代代韭菜)
-
-![jiehun](./img/jiehun1.jpg)
-![jiehun2](./img/jiehun2.jpg)
+[[PPT]](./solutions/5_梦想还是要有的/slides.pdf) 
+![大模型说的队](./imgs/framework_5.jpg)
 
 
 
@@ -164,7 +154,6 @@
 - 🌟 hxjj
 - 🌟 大模型说的队
 - 🌟 梦想还是要有的
-- 🌟 猫街四果汤
 - 🌟 ... 更多贡献者
 
 FinQwen 开源项目出于完全公益目的，欢迎所有开发者申请加入，以及提交更多优秀代码方案。
