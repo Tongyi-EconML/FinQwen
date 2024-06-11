@@ -1,0 +1,17 @@
+2024-06-06 21:47:27,526 - root - INFO - sql: 
+SELECT t1.[股票代码], ROUND((([收盘价] - [前一日收盘价]) / [前一日收盘价]) * 100, 2) AS 涨跌幅
+FROM (
+    SELECT t0.[股票代码], t0.[收盘价], LAG(t0.[收盘价]) OVER (ORDER BY t0.[股票代码]) AS [前一日收盘价]
+    FROM A股票日行情表 t0
+    JOIN 中信行业分类 t2 ON t0.[股票代码] = t2.[股票代码]
+    WHERE t2.[一级行业名称] = '综合金融'
+      AND t0.[交易日] = '20210105'
+) t1
+WHERE t1.[前一日收盘价] IS NOT NULL
+ORDER BY 涨跌幅 DESC
+LIMIT 1;
+        
+2024-06-06 21:48:01,017 - root - INFO - sql: 
+SELECT ROUND(((EndPrice - StartPrice) / StartPrice) * 100, 2) AS 年化收益率
+FROM (SELECT (SELECT [收盘价(元)] FROM A股票日行情表 WHERE 股票代码 = '603937' AND 交易日 LIKE '2020%' ORDER BY 交易日 DESC LIMIT 1) AS EndPrice, (SELECT [收盘价(元)] FROM A股票日行情表 WHERE 股票代码 = '603937'  AND 交易日 LIKE '2020%' ORDER BY 交易日 LIMIT 1) AS StartPrice) AS Prices;
+        

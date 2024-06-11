@@ -1,0 +1,2 @@
+2024-06-06 13:21:01,620 - pdfminer.pdftypes - WARNING - Data-loss while decompressing corrupted data
+2024-06-06 13:59:36,744 - pdfminer.pdftypes - WARNING - Data-loss while decompressing corrupted data

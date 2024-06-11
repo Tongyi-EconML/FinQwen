@@ -1,0 +1,7 @@
+2024-06-06 14:39:49,134 - FlagEmbedding.BGE_M3.modeling - INFO - loading existing colbert_linear and sparse_linear---------
+2024-06-06 14:45:27,463 - FlagEmbedding.BGE_M3.modeling - INFO - loading existing colbert_linear and sparse_linear---------
+2024-06-06 14:55:06,821 - FlagEmbedding.BGE_M3.modeling - INFO - loading existing colbert_linear and sparse_linear---------
+2024-06-06 15:15:36,551 - FlagEmbedding.BGE_M3.modeling - INFO - loading existing colbert_linear and sparse_linear---------
+2024-06-06 17:27:20,558 - FlagEmbedding.BGE_M3.modeling - INFO - loading existing colbert_linear and sparse_linear---------
+2024-06-06 19:31:21,563 - FlagEmbedding.BGE_M3.modeling - INFO - loading existing colbert_linear and sparse_linear---------
+2024-06-06 19:35:08,605 - FlagEmbedding.BGE_M3.modeling - INFO - loading existing colbert_linear and sparse_linear---------
